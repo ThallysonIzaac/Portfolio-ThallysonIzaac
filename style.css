@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", "sans-serif";
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+.logo-menu img{
+    background-color: #ccc;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.menu{display: flex; width: 100%;}
+
+.logo-menu{width: 50%;}
+
+.items-menu{
+    font-size: 14px;
+    width: 100%;
+    text-align: right;
+}
+
+.items-menu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.items-menu a:hover{
+    border-bottom: 4px solid #ccc;
+}
+
+.items-menu a.contact-btn{
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    border-radius: 7px;
+    background-color: #CCC;
+}
+
+.items-menu a.contact-btn:hover{
+    border: 0;
+}
+
+.mockup{display: block;width: 100%;color: white;text-align: center; padding-top: 100px;padding-bottom: 150px;}
+
+.mockup h1{
+    font-size: 40px;
+}
+
+.mockup p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mockup img{
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-image: url(/imgs/tela.png);
+    max-width: 100%;
+}
+
+section.fotos{
+    padding: 50px 0;
+    padding-bottom: 150px;
+    padding-left: 5%;
+}
+
+section.fotos img{   
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-inline: 40px;
+    display: inline-block;
+    box-shadow: 0px 30px 25px #2426721c;
+    border-radius: 20px;
+    width: calc(130% / 6);
+}
+
+section.sobre-mim{
+    padding: 50px 0;
+    background-color: #FBFCFE;
+    padding-bottom: 150px;
+}
+
+
+section.sobre-mim > .center >h2{
+    padding-bottom: 50px;
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.sobre-mim > .center{
+    max-width: 1280px;
+}
+
+section.sobre-mim > .center >p{
+    padding-bottom: 50px;
+    font-size: 25px;
+    color: #7E92AC;
+    text-align: center;
+    width: 100%;
+}
+
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+    margin-inline: 15px;
+}
+
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721c;
+    width: 33%;
+    margin-right: 3%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.box-diferenciais h3{
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+    color: black;
+}
+
+.box-diferenciais p{
+    text-align: center;
+    font-size: 13px;
+    color: #7E92AC;
+    margin-bottom: 20px;
+}
+
+section.cta{
+    background-color: #000000;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    text-align: center;
+    color: white;
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 10px 0;
+
+}
+
+section.cta h2{
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+
+section.cta h4{
+    padding-bottom: 50px;
+    font-size: 13px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 25px;
+    background: #ccc;
+    text-decoration: none;
+    color: #000000;
+}
+
+section.beneficios{
+    padding: 50px 0;
+}
+
+.lista-beneficios{
+    width: 40%;
+    padding-left: 45px;
+}
+
+.lista-beneficios h1{
+    margin-bottom: 6%;
+    color: black;
+    font-size: 40px;
+}
+
+.lista-beneficios p{
+    color: #7E92AC;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.lista-beneficios span{
+    padding-left: 2%;
+    font-size: 21px;
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+.lista-beneficios img{
+    vertical-align: middle;
+    width: 70px;
+    display: inline-block;
+}
+
+.img-beneficios{
+    padding-left: 150px;
+    width: 50%;
+}
+
+.img-beneficios img{
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 30px 30px #2426721c;
+    border-radius: 30px;
+    max-width: 100%;
+}
+
+section.trabalhos{
+    background-color: #FBFCFE;
+    padding: 40px 0;
+
+}
+
+section.trabalhos > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider{
+    margin-left: 30%;
+    margin-right: 30%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.container-slider-single{ 
+    float: left;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.container-slider-single h3{
+    padding-top: 5px;
+}
+.container-slider-single p{
+    margin: 15px 0;
+    color: #7E92AC;
+    font-size: 14px;
+    
+}
+
+.slick-slide{
+    margin-inline: 10px;
+    }
+    .slick-list{
+        margin-inline: 10px;
+    }
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
+
+/*Fim slick slider*/
+
+section.contato{
+    background-color: #FBFCFE;
+    padding: 40px 0;
+}
+
+section.contato h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+section.contato .lista-contatos-img{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+section.contato h2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer{
+    align-items: center;
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+}
+
+.text-footer{
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.items-menu{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.items-menu-mobile{
+    width: 100%;
+    text-align: right;
+    display: none;
+}
+
+.items-menu-mobile i{
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    font-size: 23px;
+}
+
+@media screen and (max-width:768px){
+    .items-menu-mobile{
+        display: block;
+    }
+    .menu-mobile{
+        display: none;
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 65px;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        background: #ccc;
+        border-radius: 8px;
+    }
+    .show{
+        display: block;
+        opacity: 1;
+    }
+    .hide{
+        opacity: 0;
+    }
+    .menu-mobile a{
+        font-size: 25px;
+        text-align: center;
+        display: block;
+        margin: 8px 0;
+        color: rgb(40, 40, 40);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 0;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    section.main .items-menu{
+        width: 100%;
+        display: none;
+    }
+
+    footer .items-menu{
+        width: 100%;
+        text-align: center;
+    }
+    footer .items-menu a{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .text-footer{
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
+    .lista-beneficios,.img-beneficios{
+        padding-left: 50px;
+        width: 80%;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+    .box-diferenciais{
+        width: 100%;
+        margin-right: 0;
+    }
+    section.fotos > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section.fotos img{
+        margin-top: 25px;
+        width: 65%;
+        max-width: 300px;
+    }
+    section.sobre-mim > .center >h2{
+        padding-left: 25px;
+        width: 95%;
+    }
+    section.sobre-mim > .center >p{
+        padding-left: 25px;
+        width: 95%;
+    }
+    .box-diferenciais{
+        margin-bottom: 30px;
+    }
+    .box-diferenciais h3{
+        text-align: center;
+    }
+    
+    .box-diferenciais p{
+        text-align: center;
+    }
+
+    section.cta{
+        width: 100%;
+    }
+    .lista-beneficios h1{
+        padding-bottom: 25px;
+    }
+    .lista-beneficios img{
+        padding-bottom: 80px;
+    }
+    .lista-beneficios span{
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
+    .container-slider{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    section.contato h1{
+        padding-bottom: 70px;
+    }
+}
