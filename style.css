@@ -556,6 +556,15 @@ footer{
         text-align: center;
         padding: 8px 0;
     }
+    .items-menu-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px; 
+    }
+    .items-menu-2 a{
+        margin: 5px;
+    }
     .lista-beneficios,.img-beneficios{
         padding-left: 50px;
         width: 80%;
