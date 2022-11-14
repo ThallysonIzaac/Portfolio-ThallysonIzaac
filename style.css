@@ -17,8 +17,9 @@ section.main{
     background-color: #000000;
     background-position: center;
     background-size: cover;
-    min-height: 700px;
+    height: auto;
     padding: 20px 0 80px 0;
+    overflow: hidden;
 }
 
 .logo-menu img{
@@ -43,13 +44,11 @@ section.main{
 
 .items-menu{
     display: flex;
-    width: 100%;
+    width: 80vw;
     text-align: right;
     font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 25px;
     justify-content: space-between;
-    height: 35px;
 }
 
 .items-menu a{
@@ -58,6 +57,7 @@ section.main{
     text-decoration: none;
     display: inline-block;
     margin: 0 10px;
+    height: 35px;
 }
 
 .items-menu a:hover{
@@ -67,12 +67,9 @@ section.main{
 
 .items-menu a.contact-btn{
     color: #000000;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-top: 4px;
     border-radius: 7px;
     background-color: #CCC;
+    padding: 5px;
 }
 
 .items-menu a.contact-btn:hover{
@@ -122,6 +119,7 @@ section.main{
     background-repeat: no-repeat; 
     background-image: url(/imgs/tela.png);
     max-width: 100%;
+    max-height: auto;
     transition: 0.09s;
 }
 
@@ -252,7 +250,11 @@ section.cta a:hover{
 }
 
 section.beneficios{
-    padding: 50px 0;
+    padding: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lista-beneficios{
@@ -284,11 +286,14 @@ section.beneficios{
     vertical-align: middle;
     width: 70px;
     display: inline-block;
+    padding-bottom: 40px;
+    height: auto;
 }
 
 .img-beneficios{
     padding-left: 150px;
     width: 50%;
+    height: auto;
 }
 
 .img-beneficios img{
@@ -304,7 +309,10 @@ section.trabalhos{
     background-color: #FBFCFE;
     padding: 40px 0;
     transition: 0.3s;
-
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section.trabalhos > h1{
@@ -364,9 +372,9 @@ section.trabalhos > h1{
 }
 
 .slick-dotted li button{
-	width: 16px;
-	height: 16px;
-	border-radius: 8px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
 	color: #d8d8d8;
 	border-width: 0;
 	background: #d8d8d8;
@@ -383,10 +391,96 @@ li.slick-active button{
 
 /*Fim slick slider*/
 
+section.projetos{
+    background-color: #FBFCFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: auto;
+}
+
+section.projetos h1{
+    font-size: 50px;
+}
+
+section.projetos .projeto-1{
+    margin-bottom: 50px;
+}
+
+.container-projeto-1{
+    display: flex;
+    width: 65vw;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px #CCC;
+    margin-bottom: 25px;
+}
+
+section.projetos h3{
+    text-align: center;
+    margin-top: 50px;
+}
+
+section.projetos img{
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+section.projetos img:hover{
+    width: 75%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+section.projetos p{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    margin-left: -15px;
+}
+
+section.projetos .buttons{
+    text-align: center;
+    height: 50px;
+}
+
+section.projetos #button-1,#button-2{
+    box-shadow: 1px 1px 5px #CCC;
+    padding: 5px;
+    border-radius: 5px;
+    font-style: italic;
+    color: #000000;
+    text-decoration: none;
+}
+
+.buttons #button-1:hover{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #373855;
+    color: #FBFCFE;
+    box-shadow: 1px 1px 10px #00000080;
+    transition: all 0.2s;
+}
+
+.buttons #button-2:hover{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #373855;
+    color: #FBFCFE;
+    box-shadow: 1px 1px 10px #00000080; 
+    transition: all 0.2s;
+}
+
 section.contato{
     background-color: #FBFCFE;
     padding: 40px 0;
     transition: 0.3s;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section.contato .center{
@@ -537,6 +631,9 @@ footer{
         margin-bottom: 40px;
         margin-top: 40px;
     }
+    section.main{
+        height: 120vh;
+    }
     section.main .items-menu{
         width: 100%;
         display: none;
@@ -565,13 +662,38 @@ footer{
     .items-menu-2 a{
         margin: 5px;
     }
-    .lista-beneficios,.img-beneficios{
-        padding-left: 50px;
-        width: 80%;
-        margin-bottom: 30px;
+    .beneficios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        min-height: 1200px;
+        margin-top: 20px;
     }
-
+    .lista-beneficios{
+        width: 100%;
+        align-items: center;
+        padding-right: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-beneficios{
+        width: 100vw;
+        height: 50vh;
+        padding-left: 1vw;
+        margin-bottom: 200px;
+    }
+    section.beneficios p{
+        display: flex;
+        flex-direction: row;
+    }
+    section.beneficios span{
+        width: 70vw;
+    }
+    #imgBeneficios{
+        height: 400px;
+        width: 70vw;
+    }
     .diferenciais{
         flex-wrap: wrap;
     }
@@ -612,21 +734,56 @@ footer{
     section.cta{
         width: 100%;
     }
-    .lista-beneficios h1{
-        padding-bottom: 25px;
+    section.projetos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        min-height: 150vh;
     }
-    .lista-beneficios img{
-        padding-bottom: 80px;
+
+    section.projetos h1,h3{
+        padding-right: 5%;
     }
-    .lista-beneficios span{
-        padding-top: 10px;
-        margin-bottom: 0px;
+
+    .container-projeto-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 90vw;
+        height: 50vh;
+        margin-top: 50px;
     }
+
+    section.projetos img{
+        width: 90vw;
+        height: 27vh;
+        margin-left: 3%;
+    }
+
+    section.projetos p{
+        width: 115vw;
+        padding-left: 60px;
+        margin-top: 0 auto;
+    }
+
+    section.projetos .buttons{
+        padding-right: 5%;
+    }
+
+    section.trabalhos{
+        height: 110vh;
+    }
+
     .container-slider{
         margin-left: 50px;
         margin-right: 50px;
     }
-    section.contato h1{
-        padding-bottom: 70px;
+
+    section.contato{
+        height: 75vh;
     }
 }

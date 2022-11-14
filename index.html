@@ -17,18 +17,20 @@
                         </div>
                         <div class="items-menu">
                             <a href="#inicio" >Início</a>
-                            <a href="#sobre-mim">Sobre mim</a>
-                            <a href="#competencias">Competências</a>
+                            <a href="#sobre-mim" >Sobre</a>
+                            <a href="#competencias" >Competências</a>
                             <a href="#trabalhos">Trabalhos</a>
+                            <a href="#projetos" >Projetos</a>
                             <a class="contact-btn" href="#contatos">Contatos</a>
                         </div>
                         <div class="items-menu-mobile">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             <div class="menu-mobile">
                                 <a href="#inicio">Início</a>
-                                <a href="#sobre-mim">Sobre mim</a>
+                                <a href="#sobre-mim">Sobre</a>
                                 <a href="#competencias">Competências</a>
                                 <a href="#trabalhos">Trabalhos</a>
+                                <a href="projetos">Projetos</a>
                                 <a class="contact-btn" href="#contatos">Contatos</a>
                             </div>
                         </div>
@@ -53,7 +55,7 @@
             <div class="center">
                 <h2>Sobre mim</h2>
                 <p>Me chamo Thallyson, tenho 22 anos, sou brasileiro e bacharel em Ciência e Tecnologia.
-                    No momento, estou à procura do meu primeiro trabalho!
+                    No momento, estou à procura da minha primeira experiência de trabalho!
                 </p>
 
                 <div class="diferenciais">
@@ -70,7 +72,7 @@
                     <div class="box-diferenciais">
                         <img src="">
                         <h3>Diferenciais</h3>
-                        <p>Nesse meio tempo, aprimorei ainda minhas habilidades na língua inglesa e aprendi uma terceira língua, que é a italiana. 
+                        <p>Nesse meio tempo, aprimorei ainda minhas habilidades na língua inglesa e aprendi uma terceira língua, que é a italiana.
                         </p>
                     </div>
                 </div>
@@ -87,16 +89,16 @@
                     <h1>Algumas competências:</h1>
                     <br/>
                     <p><img src="/imgs/js.png" alt=""/><span>Competência na linguagem de programação JavaScript</span></p>
-                    <h6><a target="_blank" href="https://icons8.com/icon/106036/logotipo-javascript">Logotipo JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></h6>
+                    
                     <br>
                     <p><img src="/imgs/react.png" alt=""/><span>Competência na principal livraria de JavaScript</span></p>
-                    <h6><a target="_blank" href="https://icons8.com/icon/viH7JJy51bHj/react">react</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></h6>
+                    
                     <br/>
                     <p><img src="/imgs/sql.png" alt=""/><span>Competência em Databases relacionais</span></p>
-                    <h6><a target="_blank" href="https://icons8.com/icon/10429/sql">SQL</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></h6>
+                    
                 </div>
                 <div class="img-beneficios">
-                    <img src="imgs/WhatsApp Image 2022-09-21 at 20.45.23.jpeg" alt="">
+                    <img src="imgs/WhatsApp Image 2022-09-21 at 20.45.23.jpeg" id="imgBeneficios">
                 </div>
             </div>
         </section>
@@ -117,17 +119,96 @@
                 </div>
             </div>
         </section>
+        <section class="projetos" id="projetos">
+            <h1>Projetos</h1>
+            <div class="projetos-javascript">
+                <div class="projeto-1">
+                    <h3 class="nome-projeto">CRUD - Create, Read, Update and Delete</h3>
+                    <br>
+                    <div class="container-projeto-1">
+                        <img src="./imgs/CRUD.png">
+                        <p class="descrição-projeto">
+                            O CRUD é um projeto que reúne as principais
+                            e mais básicas operações referentemente
+                            ao tratamento de dados. Nesse projeto em 
+                            questão, vale ressaltar, utilizei o Local
+                            Storage para o tratamento dos dados.   
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a target="_blank" href="https://github.com/ThallysonIzaac/Treinamentos-JavaScript-1/tree/CRUD" id="button-1">Projeto no GitHub</a>
+                        <a target="_blank" href="./apps/CRUD/index.html" id="button-2">Deploy do projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-1">
+                    <h3 class="nome-projeto">Player de Música</h3>
+                    <br>
+                    <div class="container-projeto-1">
+                        <img src="./imgs/playerdemusica.png">
+                        <p class="descrição-projeto">
+                            Inspirado principalmente no player de música
+                            mais conhecido do mundo, o Spotify, este projeto
+                            usa de artifícios básicos do JavaScript para dar
+                            vida ao aplicativo. Além disso, é usado também 
+                            um pouco da POO (Programação Orientada a Objetos).
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a target="_blank" href="https://github.com/ThallysonIzaac/Treinamentos-JavaScript-2/tree/master/player%20de%20m%C3%BAsica" id="button-1">Projeto no GitHub</a>
+                        <a target="_blank" href="./apps/player de música/index.html" id="button-2">Deploy do projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-1">
+                    <h3 class="nome-projeto">Pokédex</h3>
+                    <br>
+                    <div class="container-projeto-1">
+                        <img src="./imgs/pokedex.png">
+                        <p class="descrição-projeto">
+                            Projetos de Pokédex têm como principal objetivo
+                            o treinamento dos métodos de requisições API.
+                            Nesse APP foi utilizado o método Fetch para consumir
+                            os dados de uma API. Então, a partir disso, é possível
+                            escolher a quantidade de items que devem ser mostrados, 
+                            nesse caso, a quantidade de Pokémon.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a target="_blank" href="https://github.com/ThallysonIzaac/Treinamentos-JavaScript-3/tree/master/app-Pokedex" id="button-1">Projeto no GitHub</a>
+                        <a target="_blank" href="./apps/app-Pokedex/pokedex.html" id="button-2">Deploy do projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-1">
+                    <h3 class="nome-projeto">Calculadora</h3>
+                    <br>
+                    <div class="container-projeto-1">
+                        <img src="./imgs/calculadora.png">
+                        <p class="descrição-projeto">
+                            APPs de calculadoras são clássicos em se tratando de
+                            programação, pois eles costumam exigir um bom domínio
+                            da línguagem a ser utilizada para poderem ser implementados.
+                            Nesse projeto pode-se destacar a manipulação de strings 
+                            como um ponto alto.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a target="_blank" href="https://github.com/ThallysonIzaac/Treinamentos-JavaScript-3/tree/master/app-Pokedex" id="button-1">Projeto no GitHub</a>
+                        <a target="_blank" href="./apps/calculadora/index.html" id="button-2">Deploy do projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="contato" id="contatos">
             <h1>Entrar em contato</h1>
             <div style="display: block;" class="center">
                 <div class="lista-contatos-img">
                     <img style="max-width: 50px;" src="/imgs/linkedin.png" alt="">
+                    <img style="max-width: 50px;" src="./imgs/github.png" alt="">
                     <img style="max-width: 50px;" src="/imgs/whatsapp.png" alt="">
                     <img style="max-width: 50px;" src="/imgs/gmail-logo.png" alt="">
                 </div>
                 <div class="lista-contatos">
-                    <h2 id="linkedin">LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/thallyson-izaac-rodrigues-b9a5971b4/">Clique aqui</a></h2>
-                    <h2 id="github">GitHub: <a target="_blank" href="https://github.com/ThallysonIzaac">Clique aqui</a></h2>
+                    <h2 id="linkedin">LinkedIn: <a target="_blank" style="color: rgb(148, 152, 255); text-decoration: none;" href="https://www.linkedin.com/in/thallyson-izaac-rodrigues-b9a5971b4/">Clique aqui</a></h2>
+                    <h2 id="github">GitHub: <a target="_blank" style="color: rgb(148, 152, 255); text-decoration: none;" href="https://github.com/ThallysonIzaac">Clique aqui</a></h2>
                     <h2 id="telefone">Telefone: +55 (84) 99629-3679</h2>
                     <h2 id="email">E-mail: izaacprof@gmail.com</h2>
                 </div>   
@@ -136,18 +217,23 @@
         <footer>
             <div style="max-width: 1280px;" class="center">
                 <aside class="text-footer">
-                    <p>Todos os direitos reservados.</p>
-                    <h6>Dev icon<a target="_blank" href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Freepik - Flaticon</a></h6>
-                    <h6>IT icon<a target="_blank" href="https://icons8.com/icon/CYgD6pROr0CD/it">It</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></h6>
-                    <h6>GMAIL icon<a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by Google - Flaticon</a></h6>
-                    <h6>LinkedIn icon<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a></h6>
-                    <h6>Whatsapp icon<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Pixel perfect - Flaticon</a></h6>
+                    <p>&copy; Todos os direitos reservados</p>
+                    <h6>JS icon<a target="_blank" style="color: rgb(148, 152, 255); text-decoration: none;"  href="https://icons8.com/icon/106036/logotipo-javascript">Logotipo JavaScript</a> icon by <a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com">Icons8</a></h6>
+                    <h6>React icon<a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com/icon/viH7JJy51bHj/react">react</a> icon by <a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com">Icons8</a></h6>
+                    <h6>SQL icon<a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com/icon/10429/sql">SQL</a> icon by <a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com">Icons8</a></h6>
+                    <h6>Dev icon<a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Freepik - Flaticon</a></h6>
+                    <h6>IT icon<a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com/icon/CYgD6pROr0CD/it">It</a> icon by <a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com">Icons8</a></h6>
+                    <h6>GMAIL icon<a href="https://www.flaticon.com/free-icons/gmail" style="color: rgb(148, 152, 255);text-decoration:none;" title="gmail icons">Gmail icons created by Google - Flaticon</a></h6>
+                    <h6>LinkedIn icon<a href="https://www.flaticon.com/free-icons/linkedin" style="color: rgb(148, 152, 255);text-decoration:none;" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a></h6>
+                    <h6>Whatsapp icon<a href="https://www.flaticon.com/free-icons/whatsapp" style="color: rgb(148, 152, 255);text-decoration:none;" title="whatsapp icons">Whatsapp icons created by Pixel perfect - Flaticon</a></h6>
+                    <h6>GitHub icon<a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com/icon/3tC9EQumUAuq/github">GitHub</a> icon by <a target="_blank" style="color: rgb(148, 152, 255);text-decoration:none;" href="https://icons8.com">Icons8</a></h6>
                 </aside>
                 <div class="items-menu-2">
-                    <a id="inicio" href="#inicio">Início</a>
-                    <a id="sobre" href="#sobre-mim">Sobre mim</a>
-                    <a id="competencias" href="#competencias">Competências</a>
-                    <a id="trabalhos" href="#trabalhos">Trabalhos</a>
+                    <a href="#inicio" >Início</a>
+                    <a href="#sobre-mim" >Sobre</a>
+                    <a href="#competencias" >Competências</a>
+                    <a href="#trabalhos" >Trabalhos</a>
+                    <a href="#projetos">Projetos</a>
                 </div>
             </div>
         </footer>
