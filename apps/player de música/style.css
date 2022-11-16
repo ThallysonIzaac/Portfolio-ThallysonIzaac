@@ -108,9 +108,12 @@ body .botao-pause{
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 110vh;
+        height: auto;
     }
     body .title{
         margin-bottom: 50px;
+    }
+    body footer{
+        margin-bottom:50vh
     }
 }
